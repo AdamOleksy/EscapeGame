@@ -6,7 +6,6 @@
 #include "Components/ActorComponent.h"
 #include "WorldPosition.generated.h"
 
-
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ESCAPEGAME_API UWorldPosition : public UActorComponent
 {
@@ -23,6 +22,4 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-		
 };
